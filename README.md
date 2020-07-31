@@ -1,6 +1,6 @@
-# Arvores
+# Árvores
 
-### O que é e quais suas funções?
+### O que são e quais suas funções?
 
 Árvore, no contexto da programação, engenharia de software e ciência da computação, é uma das mais importantes estruturas de dados não lineares. Herda as características das topologia em árvore. Conceitualmente diferente das listas, em que os dados se encontram numa sequência, nas árvores os dados estão dispostos de forma hierárquica, seus elementos se encontram "acima" ou "abaixo" de outros elementos da árvore.
 
