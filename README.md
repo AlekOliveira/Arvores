@@ -14,7 +14,14 @@ Uma terminologia muito utilizada nas estruturas de árvores tem origem das árvo
 # Árvores implementadas neste projeto
 
 ## Btree
-- 
+
+Árvores B são uma generalização das árvores binária de busca, pois cada nó de uma árvore binária armazena uma única chave de busca, enquanto as árvores B armazenam um número maior do que um de chaves de busca em cada nó, ou no termo mais usual para essa árvore, em cada página. Como a ideia principal das árvores B é trabalhar com dispositivos de memória secundária, quanto menos acessos a disco a estrutura de dados proporcionar, melhor será o desempenho do sistema na operação de busca sobre os dados manipulados.
+
+As árvores B são organizadas por nós, tais como os das árvores binárias de busca, mas estes apresentam um conjunto de chaves maior do que um e são usualmente chamados de páginas. As chaves em cada página são, no momento da inserção, ordenadas de forma crescente e para cada chave há dois endereços para páginas filhas, sendo que, o endereço à esquerda é para uma página filha com um conjunto de chaves menor e o à direita para uma página filha com um conjunto de chaves maior.
+
+![img](https://github.com/AlekOliveira/Arvores/blob/master/exemploBtree.png)
+
+Exemplo de uma árvore B de ordem = 2.
 
 ## Btree+
 - 
