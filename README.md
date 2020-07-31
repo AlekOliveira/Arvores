@@ -1,4 +1,5 @@
 # Árvores
+![img](https://github.com/AlekOliveira/Arvores/blob/master/exemploAvre.png)
 
 ### O que são e quais suas funções?
 
