@@ -24,7 +24,14 @@ As árvores B são organizadas por nós, tais como os das árvores binárias de 
 Exemplo de uma árvore B de ordem = 2.
 
 ## Btree+
-- 
+
+A árvore B+ aparentemente foi proposta por Knuth e grande parte da literatura sobre essa estrutura é encontrada em forma de artigos ao invés de livros. Com ela foi possível organizar um arquivo de maneira que o processamento sequencial (característica até então pouco eficiente para árvores B) e aleatório de chaves fossem eficientes.
+A idéia inicial desta variação da árvore B é manter todas as chaves de busca em seus nós folha de maneira que o acesso sequencial ordenado das chaves de busca seja um processo mais eficiente do que em árvores B. 
+
+![img](https://github.com/AlekOliveira/Arvores/blob/master/exemploBplus.png)
+
+Exemplo de uma árvore B+, pode se notar que as folhas possuem todas as chaves.
+
 
 ## N-area
   Uma árvore N-ária (também conhecida como k-ária ou k-way) é uma árvore enraizada na qual cada nó não tem mais que **N** filhos. Uma árvore binária é o caso especial em que **N = 2**, e uma árvore ternária é outro caso com **N = 3** que limita seus filhos a três.
