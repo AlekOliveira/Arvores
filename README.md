@@ -10,3 +10,23 @@ São estruturas eficientes e simples em relação ao tratamento computacional, d
 Uma árvore é formada por um conjunto de elementos que armazenam informações chamados nodos (ou nós). Toda a árvore possui o elemento chamado raiz, que possui ligações para outros elementos denominados ramos ou filhos. Estes ramos podem estar ligados a outros elementos que também podem possuir outros ramos. O elemento que não possui ramos é conhecido como nó folha, nó terminal ou nó externo.
 
 Uma terminologia muito utilizada nas estruturas de árvores tem origem das árvores genealógicas. O relacionamento entre nodos é descrito com os termos "pai" (ou "mãe") para os antecessores diretos de um nodo, "filhos" (ou "filhas") para os descendentes diretos e "irmãos" (ou "irmãs") para todos os nodos com mesmo pai.
+
+# Árvores implementadas neste projeto
+
+### Btree
+- 
+
+### Btree+
+- 
+
+### N-area
+- Uma árvore N-ária (também conhecida como k-ária ou k-way) é uma árvore enraizada na qual cada nó não tem mais que **N** filhos. Uma árvore binária é o caso especial em que **N = 2**, e uma árvore ternária é outro caso com **N = 3** que limita seus filhos a três.
+
+
+Exemplo de uma N-area com **N = 5**
+
+
+
+### Patricia
+- 
+
