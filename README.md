@@ -21,6 +21,7 @@ Uma terminologia muito utilizada nas estruturas de árvores tem origem das árvo
 
 ### N-area
 - Uma árvore N-ária (também conhecida como k-ária ou k-way) é uma árvore enraizada na qual cada nó não tem mais que **N** filhos. Uma árvore binária é o caso especial em que **N = 2**, e uma árvore ternária é outro caso com **N = 3** que limita seus filhos a três.
+
 ![img](https://github.com/AlekOliveira/Arvores/blob/master/exemploNarea.png)
 
 Exemplo de uma N-area com **N = 5**
